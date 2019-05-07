@@ -1,0 +1,55 @@
+/*
+* Mia Buonadonna
+* May 8, 2019
+* Girl Develop It Web Page
+*/
+
+/* The universal selector */
+
+/* This is where I used background-color and font-family to change the background color of the body section to misty rose and the font family to arial. */
+body {
+	background-color: mistyrose;
+	font-family: "Arial" }
+
+/* This is the header section, which changes the part of the web page with the logo for Girs Develo It.  I used the rgb values to match to the logo as best as I can. */
+header {
+    background-color: rgb(235,95,107)}
+
+/* This is where I changed the size of the logo. */
+#logo {
+	height: 140px;
+	width: 510px; }
+	
+/* This is where I made the font family to Apple Chancery for h1. */
+h1 {
+	font-family: "apple chancery" }
+	
+/* This is where I made the font family to Apple Chancery for h1. */
+h2 {
+	font-family: "apple chancery" }
+
+/* This is where I changed the size of the picture of the girl with the computer with the stcker on it. I also floated it to the right of the page. */
+#boyfriend {
+    height: 250px;
+    width: 350px;
+    float: right; }
+
+/* This is where I changed the picture of the girls looking at their computers.  I floatd this to the right so that it would be next t the boyfriend sticker picture. */
+#girls {
+    height: 250px;
+    width: 350px;
+    float: right; }
+
+/* This is where I changed the color of the text and the decorations of the text when you have visited the link. */
+a:visited {
+	color: mediumblue;
+	text-decoration: underline; }
+
+/* This is where I changed the color of the text and the decorations of the text when you hover over the link. */
+a:hover {
+	color: fuchsia; 
+	font-size: 25px; } 
+
+/* This is where I changed the color of the text and the decorations of the textwith the social media links of Girl Develop It. */
+footer {
+	font-family: "times new roman", times, serif; } 
